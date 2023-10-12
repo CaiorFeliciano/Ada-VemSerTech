@@ -1,0 +1,99 @@
+<!-- ATIVIDADE 2
+> Criar um formulário;
+> Utilizar labels com for para cada input;
+> Utilizar as propriedades id e name;
+> Utilizar pelo menos 5 tipos de inputs diferentes;
+> Deverá ter validações de campos antes de enviar o formulário;
+> Utilizar uma API para registrar os dados; (crudcrud.com // nocodeform.io);
+> Recuperar os dados da API e listar em uma tabela; -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Atividade 2</title>
+  </head>
+  <body>
+    <header>
+      <h1>Atividade 2</h1>
+    </header>
+    <main>
+      <section>
+        <p>Formulário de Cadastro</p>
+        <form>
+          <ul>
+            <li>
+              <label for="name">Nome:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                maxlength="30"
+              />
+            </li>
+            <li>
+              <label for="password">Senha:</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                required
+                minlength="5"
+              />
+            </li>
+            <li>
+              <label for="email">E-mail:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+              />
+            </li>
+            <li>
+              <label for="phonenumber">Telefone:</label>
+              <input
+                type="tel"
+                id="number"
+                name="number"
+                maxlength="11"
+                required
+              />
+            </li>
+            <li>
+              <label for="checkbox">Receber Novidades?</label>
+              <input
+                type="checkbox"
+                id="checkbox"
+                name="checkbox"
+                checked
+              />
+            </li>
+            <input class="button" type="submit" />
+          </ul>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

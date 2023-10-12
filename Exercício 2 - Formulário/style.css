@@ -1,0 +1,52 @@
+h1 {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+  background-color: #aeaeaf;
+  border-radius: 20px;
+  margin: 3rem 10rem;
+  padding: 30px;
+  box-shadow: 10px 10px 25px #35413e;
+  font-family: 'AR One Sans', sans-serif; 
+}
+
+p {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+ul{
+  list-style: none;
+}
+
+li {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+  font-size: 1rem
+}
+
+input {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+input:focus {
+  border: 1px solid rgba(118, 177, 245, 0.644);
+}
+
+
+.button {
+  padding: 6px 20px;
+  font-size: .75rem;
+  font-weight: 500;
+  transition: .7s;
+}
+
+.button:hover {
+  background-color: rgba(118, 177, 245, 0.644);
+  color: #fff;
+}

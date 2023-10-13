@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "name": "Caio",
+      "password": "caiicao",
+      "email": "piocapio@isnopajsiop",
+      "phonenumber": null,
+      "checkbox": "on",
+      "id": 1
+    }
+  ]
+}

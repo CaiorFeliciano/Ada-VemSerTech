@@ -14,9 +14,7 @@ async function post() {
     checkbox: checkbox,
   };
 
-  const API_ID = "60560cc465f3482189a2a78200ce36e6";
-
-  const response = await fetch(`https://crudcrud.com/api/${API_ID}/users`, {
+  const response = await fetch('http://localhost:3001/users', {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -29,6 +27,18 @@ async function post() {
     console.log("Success", result);
   } else {
     console.error("Error:", response.statusText);
-  }
+  }
 }
+
+  async function getUsers() {
+
+  const response = await fetch(
+    'http://localhost:3001/users'
+  )
+    if(response.ok) {
+      const data = await response.json()
+      return data
+    }
+}
+
 

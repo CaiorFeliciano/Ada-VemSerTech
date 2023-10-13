@@ -74,8 +74,8 @@
             <li>
               <label for="phonenumber">Telefone:</label>
               <input
-                type="tel"
-                id="number"
+                type="text"
+                id="phonenumber
                 name="number"
                 maxlength="11"
                 required
@@ -90,10 +90,28 @@
                 checked
               />
             </li>
-            <input class="button" type="submit" />
+            <input class="button" type="submit" onclick="post()"/>
+            <input class="button" type="submit" onclick="getUsers()"/>
           </ul>
         </form>
       </section>
+      <section>
+        <table id="table">
+          <thead>
+            <tr></tr>
+            <th>Nome</th>
+            <th>Senha</th>
+            <th>E-Mail</th>
+            <th>Telefone</th>
+            <th>Receber novidades?</th>
+          </tr>
+          </thead>
+          <tbody id="body">
+            
+          </tbody>
+        </table>
+      </section>
     </main>
+    <script src="./index.js"></script>
   </body>
 </html>

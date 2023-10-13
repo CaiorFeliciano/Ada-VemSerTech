@@ -75,7 +75,7 @@
               <label for="phonenumber">Telefone:</label>
               <input
                 type="text"
-                id="phonenumber
+                id="number"
                 name="number"
                 maxlength="11"
                 required
@@ -91,12 +91,12 @@
               />
             </li>
             <input class="button" type="submit" onclick="post()"/>
-            <input class="button" type="submit" onclick="getUsers()"/>
           </ul>
         </form>
+        <button onclick="getUsers()">Renderiza Tabela</button>
       </section>
       <section>
-        <table id="table">
+        <table id="userTable">
           <thead>
             <tr></tr>
             <th>Nome</th>
@@ -106,7 +106,7 @@
             <th>Receber novidades?</th>
           </tr>
           </thead>
-          <tbody id="body">
+          <tbody>
             
           </tbody>
         </table>

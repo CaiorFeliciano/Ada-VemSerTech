@@ -1,52 +1,112 @@
 h1 {
   text-align: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-main {
-  background-color: #aeaeaf;
-  border-radius: 20px;
-  margin: 3rem 10rem;
-  padding: 30px;
-  box-shadow: 10px 10px 25px #35413e;
-  font-family: 'AR One Sans', sans-serif; 
+ul {
+  list-style: none;
 }
 
 p {
   text-align: center;
   font-size: 1.25rem;
+  font-family: "AR One Sans", sans-serif;
 }
 
-ul{
-  list-style: none;
+.container-form {
+  max-width: 480px;
+  margin: 50px auto;
 }
 
-li {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 5px;
-  font-size: 1rem
+.field {
+  color: #10addd;
+  font-family: "AR One Sans", sans-serif;
+  font-size: 16px;
+  border-radius: 3px;
+  line-height: 20px;
+  background-color: transparent;
+  border: 2px solid #d2d2d2;
+  transition: all 0.3s;
+  padding: 11px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
 }
 
-input {
-  border-radius: 5px;
-  border: none;
-  outline: none;
+.field:focus {
+  border: 2px solid #10addd;
+  color: #000000
 }
-
-input:focus {
-  border: 1px solid rgba(118, 177, 245, 0.644);
-}
-
 
 .button {
-  padding: 6px 20px;
-  font-size: .75rem;
-  font-weight: 500;
-  transition: .7s;
+  font-family: "open_sansregular";
+  width: 100%;
+  background: #10addd;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: 15px;
+  font-weight: 700;
 }
 
 .button:hover {
-  background-color: rgba(118, 177, 245, 0.644);
+  background: #414141;
+}
+
+.btn-getUsers {
+  font-family: "open_sansregular";
+  color: #000000;
+  border-radius: 5px;
+  background-color: #a0a0a0;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-left: 40px;
+  font-weight: 400;
+}
+
+.btn-getUsers:hover{
+  background: #414141;
   color: #fff;
 }
+
+table {
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  margin: 1em;
+  font-family: "AR One Sans", sans-serif;
+  margin: 20px auto;
+}
+th {
+  border-bottom: 1px solid #d2d2d2;
+  color: #000000;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  text-align: left;
+}
+td {
+  color: #000000;
+  font-weight: 400;
+  padding: 0.65em 1em;
+}
+
+tbody tr {
+  transition: background 0.25s ease;
+}
+tbody tr:hover {
+  background: #10addd;
+  color: #fff;
+}
+

@@ -41,11 +41,12 @@
     <main>
       <section>
         <p>Formulário de Cadastro</p>
-        <form>
+        <form class="container-form">
           <ul>
             <li>
-              <label for="name">Nome:</label>
               <input
+                class="field"
+                placeholder="Nome"
                 type="text"
                 id="name"
                 name="name"
@@ -53,8 +54,9 @@
               />
             </li>
             <li>
-              <label for="password">Senha:</label>
               <input
+                class="field"
+                placeholder="Senha"
                 type="password"
                 id="password"
                 name="password"
@@ -63,8 +65,9 @@
               />
             </li>
             <li>
-              <label for="email">E-mail:</label>
               <input
+                class="field"
+                placeholder="E-Mail"
                 type="email"
                 id="email"
                 name="email"
@@ -72,8 +75,9 @@
               />
             </li>
             <li>
-              <label for="phonenumber">Telefone:</label>
               <input
+                class="field"
+                placeholder="Telefone"
                 type="text"
                 id="number"
                 name="number"
@@ -82,7 +86,7 @@
               />
             </li>
             <li>
-              <label for="checkbox">Receber Novidades?</label>
+              <label for="checkbox">Receber novidades?</label>
               <input
                 type="checkbox"
                 id="checkbox"
@@ -90,25 +94,28 @@
                 checked
               />
             </li>
-            <input class="button" type="submit" onclick="post()"/>
+            <input
+              class="button"
+              type="submit"
+              onclick="post()"
+            />
           </ul>
+          <button class="btn-getUsers" onclick="getUsers()">Renderiza Tabela</button>
         </form>
-        <button onclick="getUsers()">Renderiza Tabela</button>
+
       </section>
       <section>
         <table id="userTable">
           <thead>
-            <tr></tr>
-            <th>Nome</th>
-            <th>Senha</th>
-            <th>E-Mail</th>
-            <th>Telefone</th>
-            <th>Receber novidades?</th>
-          </tr>
+            <tr>
+              <th>Nome</th>
+              <th>Senha</th>
+              <th>E-Mail</th>
+              <th>Telefone</th>
+              <th>Receber novidades?</th>
+            </tr>
           </thead>
-          <tbody>
-            
-          </tbody>
+          <tbody></tbody>
         </table>
       </section>
     </main>

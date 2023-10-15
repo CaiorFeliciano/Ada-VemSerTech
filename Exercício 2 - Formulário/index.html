@@ -41,68 +41,71 @@
     <main>
       <section>
         <p>Formulário de Cadastro</p>
-        <form class="container-form">
-          <ul>
-            <li>
-              <input
-                class="field"
-                placeholder="Nome"
-                type="text"
-                id="name"
-                name="name"
-                maxlength="30"
-              />
-            </li>
-            <li>
-              <input
-                class="field"
-                placeholder="Senha"
-                type="password"
-                id="password"
-                name="password"
-                required
-                minlength="5"
-              />
-            </li>
-            <li>
-              <input
-                class="field"
-                placeholder="E-Mail"
-                type="email"
-                id="email"
-                name="email"
-                required
-              />
-            </li>
-            <li>
-              <input
-                class="field"
-                placeholder="Telefone"
-                type="text"
-                id="number"
-                name="number"
-                maxlength="11"
-                required
-              />
-            </li>
-            <li>
-              <label for="checkbox">Receber novidades?</label>
-              <input
-                type="checkbox"
-                id="checkbox"
-                name="checkbox"
-                checked
-              />
-            </li>
+        <form class="container-form" novalidate>
+          <div>
+
+            <input
+              class="field"
+              placeholder="Nome"
+              type="text"
+              id="name"
+              name="name"
+              maxlength="30"
+            />
+            <div class="error"><p>Preencha corretamente o campo.</p></div>
+            <input
+              class="field"
+              type="password"
+              placeholder="Senha"
+              id="password"
+              name="password"
+              required
+              minlength="5"
+            />
+            <div class="error"><p>Preencha corretamente o campo.</p></div>
+            
+            <input
+              class="field"
+              placeholder="E-Mail"
+
+              type="email"
+              id="email"
+              name="email"
+              required
+            />
+            <div class="error"><p>Preencha corretamente o campo.</p></div>  
+
+            <input
+              class="field"
+              placeholder="Telefone"
+
+              type="text"
+              id="number"
+              name="number"
+              maxlength="11"
+              required
+            />
+            <div class="error"><p>Preencha corretamente o campo.</p></div>
+            <label for="checkbox">Receber novidades?</label>
+            <input
+              type="checkbox"
+              id="checkbox"
+              name="checkbox"
+              checked
+            />
             <input
               class="button"
               type="submit"
               onclick="post()"
             />
-          </ul>
-          <button class="btn-getUsers" onclick="getUsers()">Renderiza Tabela</button>
+          </div>
+          <button
+            class="btn-getUsers"
+            onclick="getUsers()"
+          >
+            Renderiza Tabela
+          </button>
         </form>
-
       </section>
       <section>
         <table id="userTable">

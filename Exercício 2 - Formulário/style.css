@@ -110,3 +110,24 @@ tbody tr:hover {
   background: #10addd;
   color: #fff;
 }
+
+
+form .error {
+  color: #a70d0d;
+}
+
+form .hide-name-error {
+  display: none;
+}
+
+form .hide-password-error {
+  display: none;
+}
+
+form .hide-email-error {
+  display: none;
+}
+
+form .hide-phonenumber-error {
+  display: none;
+}

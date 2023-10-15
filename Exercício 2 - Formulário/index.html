@@ -43,7 +43,6 @@
         <p>Formulário de Cadastro</p>
         <form class="container-form" novalidate>
           <div>
-
             <input
               class="field"
               placeholder="Nome"
@@ -52,7 +51,7 @@
               name="name"
               maxlength="30"
             />
-            <div class="error"><p>Preencha corretamente o campo.</p></div>
+            <p id="name-error" class="error hide-name-error">Por favor, coloque seu nome.</p>
             <input
               class="field"
               type="password"
@@ -62,30 +61,26 @@
               required
               minlength="5"
             />
-            <div class="error"><p>Preencha corretamente o campo.</p></div>
-            
+            <p id="password-error" class="error hide-password-error">Por favor, coloque sua senha.</p>
             <input
               class="field"
               placeholder="E-Mail"
-
               type="email"
               id="email"
               name="email"
               required
             />
-            <div class="error"><p>Preencha corretamente o campo.</p></div>  
-
+            <p id="email-error" class="error hide-email-error">Por favor, coloque seu e-mail.</p>  
             <input
               class="field"
               placeholder="Telefone"
-
               type="text"
               id="number"
               name="number"
               maxlength="11"
               required
             />
-            <div class="error"><p>Preencha corretamente o campo.</p></div>
+            <p id="phonenumber-error" class="error hide-phonenumber-error">Por favor, coloque seu telefone.</p>
             <label for="checkbox">Receber novidades?</label>
             <input
               type="checkbox"
@@ -96,7 +91,8 @@
             <input
               class="button"
               type="submit"
-              onclick="post()"
+              onclick="submitHandler()"
+              
             />
           </div>
           <button

@@ -41,67 +41,95 @@
     <main>
       <section>
         <p>Formulário de Cadastro</p>
-        <form class="container-form" novalidate>
-          <div>
-            <input
-              class="field"
-              placeholder="Nome"
-              type="text"
-              id="name"
-              name="name"
-              maxlength="30"
-            />
-            <p id="name-error" class="error hide-name-error">Por favor, coloque seu nome.</p>
-            <input
-              class="field"
-              type="password"
-              placeholder="Senha"
-              id="password"
-              name="password"
-              required
-              minlength="5"
-            />
-            <p id="password-error" class="error hide-password-error">Por favor, coloque sua senha.</p>
-            <input
-              class="field"
-              placeholder="E-Mail"
-              type="email"
-              id="email"
-              name="email"
-              required
-            />
-            <p id="email-error" class="error hide-email-error">Por favor, coloque seu e-mail.</p>  
-            <input
-              class="field"
-              placeholder="Telefone"
-              type="text"
-              id="number"
-              name="number"
-              maxlength="11"
-              required
-            />
-            <p id="phonenumber-error" class="error hide-phonenumber-error">Por favor, coloque seu telefone.</p>
-            <label for="checkbox">Receber novidades?</label>
-            <input
-              type="checkbox"
-              id="checkbox"
-              name="checkbox"
-              checked
-            />
-            <input
-              class="button"
-              type="submit"
-              onclick="submitHandler()"
-              
-            />
-          </div>
-          <button
-            class="btn-getUsers"
-            onclick="getUsers()"
+        <form
+          id="form"
+          class="container-form"
+          novalidate
+        >
+          <input
+            class="field"
+            placeholder="Nome"
+            type="text"
+            id="name"
+            name="name"
+            maxlength="30"
+          />
+          <p
+            id="name-error"
+            class="error hide-name-error"
           >
-            Renderiza Tabela
+            Please enter your name
+          </p>
+          <input
+            class="field"
+            placeholder="Senha"
+            type="password"
+            id="password"
+            name="password"
+            required
+            minlength="5"
+          />
+          <p
+            id="password-error"
+            class="error hide-password-error"
+          >
+            Please enter a password
+          </p>
+          <input
+            class="field"
+            placeholder="E-Mail"
+            type="email"
+            id="email"
+            name="email"
+            required
+          />
+          <p
+            id="email-error"
+            class="error hide-email-error"
+          >
+            Please enter an E-mail
+          </p>
+
+          <input
+            class="field"
+            placeholder="Telefone"
+            type="text"
+            id="number"
+            name="number"
+            maxlength="11"
+            required
+          />
+          <p
+            id="phonenumber-error"
+            class="error hide-phonenumber-error"
+          >
+            Please enter a phone number
+          </p>
+
+          <label for="checkbox">Receber novidades?</label>
+          <input
+            type="checkbox"
+            id="checkbox"
+            name="checkbox"
+            checked
+          />
+
+          <!-- <input class="button" type="submit" onclick="submitHandler()" /> -->
+          <button
+            id="submitButton"
+            class="submit-button"
+            type="submit"
+            disabled
+          >
+            Submit
           </button>
         </form>
+        <button
+          class="btn-getUsers"
+          onclick="getUsers()"
+        >
+          Renderiza Tabela
+        </button>
       </section>
       <section>
         <table id="userTable">

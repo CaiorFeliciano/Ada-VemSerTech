@@ -40,7 +40,7 @@ p {
   color: #000000
 }
 
-.button {
+.submit-button {
   font-family: "open_sansregular";
   width: 100%;
   background: #10addd;
@@ -56,7 +56,7 @@ p {
   font-weight: 700;
 }
 
-.button:hover {
+.submit-button:hover {
   background: #414141;
 }
 
@@ -73,7 +73,8 @@ p {
   padding-bottom: 10px;
   transition: all 0.3s;
   font-weight: 400;
-  margin-top: 20px;
+  max-width: 480px;
+  margin-left: 33%;
 }
 
 .btn-getUsers:hover{

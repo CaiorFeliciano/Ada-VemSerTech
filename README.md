@@ -3,4 +3,4 @@ Repositório destinado a exercícios do programa Vem Ser Tech da Ada em parceria
 
 ## Módulo Front-End Estático
 - Exercício 1 - Currículo com HTML básico
-- Exercício 2 - Criar um formulário e uma tabela - Usar métodos de requisição POST and GET - Criação JSON Server
+- Exercício 2 - Criar um formulário e uma tabela com HTML e CSS - Usar métodos de requisição POST and GET - Criação JSON Server

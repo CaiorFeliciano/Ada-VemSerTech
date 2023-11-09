@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "name": "Caio Feliciano",
+      "password": "caiocaio",
+      "email": "caio@caio.com",
+      "phonenumber": "11223344556",
+      "checkbox": "on",
+      "id": 1
+    },
+    {
+      "name": "Adriana Wilczeck",
+      "password": "asmopaioçmspoç45454",
+      "email": "adriana@mail.com",
+      "phonenumber": "99988777665",
+      "checkbox": "on",
+      "id": 2
+    }
+  ]
+}

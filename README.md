@@ -8,3 +8,4 @@ Repositório destinado a exercícios do programa Vem Ser Tech da Ada em parceria
 ## Módulo Lógica de Programação I (JS/TS)
 - Exercícios If Else
 - Exercícios Switch
+- Exercícios While

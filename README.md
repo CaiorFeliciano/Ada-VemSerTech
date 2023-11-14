@@ -6,6 +6,7 @@ Repositório destinado a exercícios do programa Vem Ser Tech da Ada em parceria
 - Exercício 2 - Criar um formulário e uma tabela com HTML e CSS - Usar métodos de requisição POST and GET - Criação JSON Server
 
 ## Módulo Lógica de Programação I (JS/TS)
+- Exercícios For
 - Exercícios If Else
 - Exercícios Switch
 - Exercícios While

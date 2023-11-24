@@ -11,3 +11,4 @@ Repositório destinado a exercícios do programa Vem Ser Tech da Ada em parceria
 - Exercícios If Else
 - Exercícios Switch
 - Exercícios While
+- Jogo da Velha

@@ -8,7 +8,8 @@ Repositório destinado a exercícios do programa Vem Ser Tech da Ada em parceria
 ## Módulo Lógica de Programação I (JS/TS)
 - Exercícios For
 - Exercícios Function
+  - Jogo da Velha
 - Exercícios If Else
 - Exercícios Switch
 - Exercícios While
-- Jogo da Velha
+

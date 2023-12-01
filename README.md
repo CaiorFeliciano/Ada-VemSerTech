@@ -12,3 +12,6 @@ Repositório destinado a exercícios do programa Vem Ser Tech da Ada em parceria
 - Exercícios Switch
 - Exercícios While
 - Jogo da Velha
+
+# Módulo Programação Orientada à Objetos
+- Desafios

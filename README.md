@@ -14,7 +14,10 @@ Repositório destinado a exercícios do programa Vem Ser Tech da Ada em parceria
 - Exercícios While
 
 
-# Módulo Programação Orientada à Objetos
+## Módulo Programação Orientada à Objetos
 - Desafios
   - Projeto Final
-  
+
+## Módulo Front-End Dinâmico (JS DOM)
+- Desafios
+  - Desafio 01

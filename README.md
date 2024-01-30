@@ -20,4 +20,4 @@ Repositório destinado a exercícios do programa Vem Ser Tech da Ada em parceria
 
 ## Módulo Front-End Dinâmico (JS DOM)
 - Desafios
-  - Desafio 01
+  - Churrascômetro Vegano

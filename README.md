@@ -22,6 +22,6 @@ Repositório destinado a exercícios do programa Vem Ser Tech da Ada em parceria
 - Desafios
   - Churrascômetro Vegano
 
-##Módulo React I
+## Módulo React I
 - Aula 01
 - Aula 02

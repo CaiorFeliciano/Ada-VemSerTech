@@ -23,5 +23,5 @@ Repositório destinado a exercícios do programa Vem Ser Tech da Ada em parceria
   - Churrascômetro Vegano
 
 ## Módulo React I
-- Aula 01
-- Aula 02
+- Aula 01 - Componentes
+- Aula 02 - useState

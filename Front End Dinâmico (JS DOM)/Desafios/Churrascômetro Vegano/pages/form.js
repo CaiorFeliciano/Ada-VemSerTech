@@ -1,4 +1,4 @@
-export function form(Navegar) {
+export function form() {
     let root = document.getElementById('root')
 
     let container = document.createElement('div')
@@ -19,7 +19,7 @@ export function form(Navegar) {
 
     let headerForm = document.createElement('h1')
     headerForm.id = 'header-form'
-    headerForm.textContent = 'Fique por dentro de todas as novidades. Cadastre seu e-mail e receba promoções especiais!'
+    headerForm.textContent = 'Cadastre seu e-mail para receber promoções!'
     inputFormGroup.appendChild(headerForm)
 
     let form = document.createElement('form')

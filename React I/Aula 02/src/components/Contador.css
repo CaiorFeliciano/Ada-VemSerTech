@@ -1,0 +1,27 @@
+.Contador {
+  height: 600px;
+  width: 300px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  display: flex;
+  flex-direction:column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Contador__numero {
+  font-size: 20px;
+}
+
+.Contador__acoes {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+button:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}

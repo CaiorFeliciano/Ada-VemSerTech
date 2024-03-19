@@ -24,4 +24,5 @@ Repositório destinado a exercícios do programa Vem Ser Tech da Ada em parceria
 
 ## Módulo React I
 - Aula 01 - Componentes
-- Aula 02 - useState
+- Aula 02
+- Aula 03 - useState

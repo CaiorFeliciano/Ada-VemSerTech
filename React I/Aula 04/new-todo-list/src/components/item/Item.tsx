@@ -9,7 +9,7 @@ type ItemProps = {
 
 const Item = (props: ItemProps) => {
   return (
-    <div className="Item">
+    <div className={`Item ${props.item.concluido ? "concluido" : "pendente"}`}>
       <p className="Item__nome">Nome: {props.item.nome}</p>
       <p className="Item__categoria">Categoria: {props.item.categoria}</p>
       <p className="Item__data">

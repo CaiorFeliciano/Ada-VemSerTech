@@ -8,3 +8,7 @@
     align-items: center;
     gap: 8px;
 }
+
+.Item.concluido {
+    border: 1px solid green;
+}

@@ -1,12 +1,21 @@
+import { ItemType } from "../../types/itemType";
 import Item from "../item/Item";
+import "./Lista.css";
 
-const Lista = () => {
+type ListaProps = {
+  items: ItemType[];
+};
+
+const Lista = (props: ListaProps) => {
+  if (!props.items || props.items.length === 0) {
+    return <div className="Lista">Não há atividades pendentes!</div>;
+  }
+
   return (
-    <div>
-      Lista:
-      <Item />
-      <Item />
-      <Item />
+    <div className="Lista">
+      {props.items.map((item: ItemType) => (
+        <Item key={item.id} item={item} />
+      ))}
     </div>
   );
 };

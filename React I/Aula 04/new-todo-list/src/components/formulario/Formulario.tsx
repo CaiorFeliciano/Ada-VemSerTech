@@ -1,9 +1,10 @@
-import { useState } from "react";
 import { ItemType } from "../../types/itemType";
 
-const Formulario = () => {
-  const [item, setItem] = useState<ItemType>();
+type FormularioProps = {
+  submit: (novoItem: ItemType) => void;
+};
 
+const Formulario = (props: FormularioProps) => {
   const submitHandler = (e: any) => {
     e.preventDefault();
     const nome = e.target[0].value;
@@ -15,7 +16,7 @@ const Formulario = () => {
       categoria: categoria,
       dataConclusao: dataConclusao,
     };
-    setItem(novoItem);
+    props.submit(novoItem);
   };
 
   return (

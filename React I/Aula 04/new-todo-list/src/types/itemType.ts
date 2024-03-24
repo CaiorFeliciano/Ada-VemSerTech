@@ -3,4 +3,5 @@ export type ItemType = {
     nome: string;
     categoria: number;
     dataConclusao: Date;
+    concluido: boolean;
 }

@@ -4,6 +4,8 @@ import "./Lista.css";
 
 type ListaProps = {
   items: ItemType[];
+  deletar: (id: string) => void;
+  concluir: (id: string) => void;
 };
 
 const Lista = (props: ListaProps) => {
@@ -14,7 +16,12 @@ const Lista = (props: ListaProps) => {
   return (
     <div className="Lista">
       {props.items.map((item: ItemType) => (
-        <Item key={item.id} item={item} />
+        <Item
+          key={item.id}
+          item={item}
+          deletar={props.deletar}
+          concluir={props.concluir}
+        />
       ))}
     </div>
   );

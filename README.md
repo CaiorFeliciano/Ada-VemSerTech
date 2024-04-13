@@ -28,5 +28,5 @@ Repositório destinado a exercícios do programa Vem Ser Tech da Ada em parceria
 - Aula 03 - useState
 - Aula 04
 - Aula 05
- - Churrascômetro
+  - Churrascômetro
 - Projeto Best Browser Games

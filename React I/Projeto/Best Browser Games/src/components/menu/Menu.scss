@@ -1,0 +1,38 @@
+.menu {
+  display: none;
+  position: absolute;
+  top: 65px;
+  right: 20px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 0px 0px 8px 8px;
+}
+.menu a {
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+  color: #424e77;
+}
+.menu a:hover {
+  background-color: #fcedede0;
+}
+.menu.active {
+  display: block;
+}
+.IconeUser {
+  width: 25px;
+  height: 25px;
+  color: #424e77;
+  cursor: pointer;
+}
+.menu-trigger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: gray;
+}

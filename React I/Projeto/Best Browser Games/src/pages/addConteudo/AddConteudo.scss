@@ -1,0 +1,13 @@
+.ConatinerAddConteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+.containerPrincipal{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}

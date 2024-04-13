@@ -1,0 +1,83 @@
+.Formulario{
+    width: 500px;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border-radius: 8px;
+    background-color: rgba(122, 120, 120, 0.616);
+    &__h2{
+        margin: 20px;
+    }
+    &__inputs{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__input{
+        margin: 10px;
+        border-style: none;
+        width: 90%;
+        height: 40px;
+        padding: 10px;
+        background-color: rgba(182, 180, 180, 0.87);
+        border-radius: 8px;
+        font-size: 16px;
+        color: rgb(25, 58, 25);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    &__divBtns{
+        display: flex;
+    }
+    &__btn{
+        width: 200px;
+        height: 50px;
+        margin: 10px;
+        background-color: rgb(81, 137, 81);
+        border-style: none;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        cursor: pointer;
+    }
+}
+
+/* Estilo para o placeholder padrão */
+::-webkit-input-placeholder { /* Para navegadores baseados em WebKit, como Chrome/Safari */
+    color: rgb(25, 58, 25); /* Cor do texto */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+ }
+ :-moz-placeholder { /* Para navegadores Firefox 4-18 */
+    color: rgb(25, 58, 25); /* Cor do texto */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+ }
+ ::-moz-placeholder { /* Para navegadores Firefox 19+ */
+    color: rgb(25, 58, 25); /* Cor do texto */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+ }
+ :-ms-input-placeholder { /* Para navegadores Internet Explorer 10+ */
+    color: rgb(25, 58, 25); /* Cor do texto */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+ }
+ 
+ /* Estilo para o placeholder quando o input estiver focado */
+ input:focus::-webkit-input-placeholder {
+    color: transparent; /* Muda a cor do texto para transparente quando o input está focado */
+ }
+ input:focus:-moz-placeholder {
+    color: transparent;
+ }
+ input:focus::-moz-placeholder {
+    color: transparent;
+ }
+ input:focus:-ms-input-placeholder {
+    color: transparent;
+ }

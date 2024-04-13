@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fcedede0;
+  padding: 20px;
+  &__h3 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: #424e77;
+    margin-left: 20px;
+  }
+}
+.Form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 40%;
+  &__input {
+    width: 75%;
+    height: 20px;
+    margin-right: 5px;
+    border-style: none;
+    background-color: #7b8cb16f;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 15px;
+    padding: 8px;
+  }
+  &__select {
+    margin-right: 5px;
+    border-style: none;
+    background-color: #838ba7;
+    font-family: "Roboto";
+    padding: 8px;
+    font-size: 15px;
+    color: white;
+  }
+  &__btn {
+    border-style: none;
+    background-color: #424e77;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    padding: 8px;
+    color: white;
+    font-size: 15px;
+  }
+}
+.LogoutUser {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  margin-right: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  &__span {
+    color: #424e77;
+    font-size: 16px;
+  }
+}

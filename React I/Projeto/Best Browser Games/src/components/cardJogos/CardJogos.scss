@@ -1,0 +1,19 @@
+.CardJogos {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 327px;
+  margin: 20px;
+  margin-bottom: 30px;
+  border: 3px solid #555e80;
+  padding: 15px;
+
+  &__btn {
+    border-style: none;
+    background-color: #555e80;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 5px;
+  }
+}
